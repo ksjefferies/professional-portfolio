@@ -20,6 +20,8 @@ In this project, i did the following:
 - [Github Repository for semantic-html](https://github.com/ksjefferies/semantic-html)
 
 - [Semantic-HTML final page](https://ksjefferies.github.io/semantic-html/)
+## stock images
+https://www.pexels.com/search/nature/
 
 ## Contributions:
 I worked with the following students from my class:
