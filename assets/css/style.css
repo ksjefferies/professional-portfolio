@@ -1,38 +1,51 @@
-html{
+html {
     height: 100%;
-    background-color: #a8b9c0;
+    background-color: #F7F9FC;
 }
 
 body {
+    min-width:100%;
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    flex-grow: 1;
+    color: #151A30; 
 }
 
-main{
-    display: flex;
-    flex-grow: 1; 
+main {
+  border-radius: 1%;
+  background-color: #FFFFFF;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
-section {
-    margin-left: 4em;
-    margin-right: 4em;
+img {
+    width: 100%;
 }
 
-.header {
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #a8b9c0;
-    color: #ffffff;
-    border: 5px solid black;
+.main-header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 1%;
+    flex-grow: 1;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
+
+    background-color: #222B45;
+    color: #FFFFFF;
 }
 
-.header div {
+.main-header img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.main-header div {
     display: flex;
     flex-direction: row;
     flex-basis: 40em;
@@ -40,57 +53,95 @@ section {
     gap: 10px;   
 }
 
-.header nav {
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    align-items: center;    
-}
-
- .header-img {
-    width: 20%;
-    height: 20%;
-}
-
-.header nav ul {
+.main-header ul {    
     display: flex;
     flex-direction: row;
     gap: 10px;
-    list-style-type: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    align-items: center;    
+    justify-content: center;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 7px;
+    border-radius: 10%;
+}
+
+.main-header a:hover {
+    text-decoration: underline;
 }
 
 .about {
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    flex-direction: row;
-    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
     padding-bottom: 1em;    
 }
 
-.side-tag {
-    border-right: 0.2em solid black;
-    padding-right: 1em;
-    flex-basis: 100px;
-    flex-grow: 0;
-    flex-shrink: 0;
+.about h2 {
+    padding: 1em;
+    margin-right: 3em;
 }
 
- .post-content {
-    flex: 0.5;
+.about-content  {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: baseline;
+ }
+
+ .work {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    padding-bottom: 1em;    
+}
+
+.work h2 {
+    padding: 1em;
+    margin-right: 3em;
+}
+
+.work-content  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 20px;
+    justify-content: center;
     text-align: center;
  }
 
- .post-content h1 {
-     font-size: 30px;
- }
-.hero img{
-    width: 800px;
-}
- .post img {
-    width: 500px;
+ .hero img {
+    max-width: 600px;
  }
 
-.footer {
+ .post-content  {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+ }
+
+ .post {
+     min-width: 25vw;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .post img {
+    max-width: 25vw;
+ } 
+
+ .footer {
+    background-color: #222B45;
+    color: #FFFFFF;
     text-align:center;
     height:58px;
     font-size:11px;
@@ -98,8 +149,9 @@ section {
     flex-direction: row;
 }
 
-.footer nav{
+.footer nav {
     flex-grow: 1;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
 }
 
 .footer ul {
@@ -113,4 +165,13 @@ section {
     width: 100%;
     font-size:20px;
     list-style: none;    
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
