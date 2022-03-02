@@ -20,9 +20,9 @@ In this project, i did the following:
 -----
 ## Links for Github Repository and final public page
 
-- [Github Repository for professional-portfolio](https://ksjefferies.github.io/professional-portfolio/l)
+- [Github Repository for professional-portfolio](https://github.com/ksjefferies/professional-portfolio)
 
-- [Semantic-HTML final page](https://ksjefferies.github.io/semantic-html/)
+- [Professional Portfolio final page](https://ksjefferies.github.io/professional-portfolio/)
 ## Stock images
 - [Pexels Stock Images](https://www.pexels.com)
 - [Google Image](https://www.reuters.com/technology/google-services-down-some-users-downdetector-2021-06-29/)
