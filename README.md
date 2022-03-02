@@ -4,10 +4,13 @@
 
 In this project, i did the following:
 
-- Provided samples of prior projexts
-- Ensure page is following Accessibility Standards, including the icons and image elements contain alt attributes 
+- Provided samples of prior projects
+- Created name, picture, and nav section wiith about me, contact, and project links
 - Checked that all page links were functional
-- Increased the efficiency of the CSS by consolidating the selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before elements and sections of the page
+- Confirmed all Nav links scrolled to correct section of the page
+- Ensured latest project was listed first and larger size than other projects
+- Confirmed all image links resolved to correct URL
+- Responsive layout that adapted to my viewport 
 
 -----
 ## Screenshot of final page
@@ -17,34 +20,24 @@ In this project, i did the following:
 -----
 ## Links for Github Repository and final public page
 
-- [Github Repository for semantic-html](https://github.com/ksjefferies/semantic-html)
+- [Github Repository for professional-portfolio](https://ksjefferies.github.io/professional-portfolio/l)
 
 - [Semantic-HTML final page](https://ksjefferies.github.io/semantic-html/)
-## stock images
-https://www.pexels.com/search/nature/
+## Stock images
+- [Pexels Stock Images](https://www.pexels.com)
+- [Google Image](https://www.reuters.com/technology/google-services-down-some-users-downdetector-2021-06-29/)
+- [Github Image](https://www.omgubuntu.co.uk/2018/06/microsoft-buying-github)
+- [Linkedin Image](https://techsavvy.life/2022/02/17/want-to-change-your-linkedin-profile-url/)
+- [Twitter Image](https://www.indiatvnews.com/technology/news-twitter-edit-button-introduction-on-one-condition-know-what-is-it-631301)
+
+
+
 
 ## Contributions:
 I worked with the following students from my class:
-- Eugene
-- Gus
-- Vidal
-- Andrew
+- Eugene A.
+- Daniel Norred
 ## Site used for using Flexbox
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 ## License
 This code is licensed under the MIT License
-
-
-I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport

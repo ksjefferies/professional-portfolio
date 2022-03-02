@@ -1,8 +1,10 @@
+/* Universal settings set at the html level */
 html {
     height: 100%;
     background-color: #F7F9FC;
 }
 
+/* Universal settings for the body */
 body {
     min-width:100%;
     min-height: 100%;
@@ -14,6 +16,7 @@ body {
     color: #151A30; 
 }
 
+/* Format settings for main section */
 main {
   border-radius: 1%;
   background-color: #FFFFFF;
@@ -21,10 +24,7 @@ main {
   margin-right: 5em;
 }
 
-img {
-    width: 100%;
-}
-
+/* create and format settings for main header flexbox  */
 .main-header {
     display: flex;
     flex-direction: row;
@@ -34,17 +34,18 @@ img {
     border-radius: 1%;
     flex-grow: 1;
     font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
-
     background-color: #222B45;
     color: #FFFFFF;
 }
 
+/* main header image display settings */
 .main-header img {
     width: 20%;
     height: 20%;
     border-radius: 50%;
 }
 
+/* create and format settings for main div flexbox  */
 .main-header div {
     display: flex;
     flex-direction: row;
@@ -53,6 +54,7 @@ img {
     gap: 10px;   
 }
 
+/* create and format settings for main header nav UL flexbox  */
 .main-header ul {    
     display: flex;
     flex-direction: row;
@@ -64,6 +66,7 @@ img {
     justify-content: center;
 }
 
+/* Format settings for main header  */
 .main-header a {
     text-decoration: none;
     color: #FFFFFF;
@@ -71,14 +74,18 @@ img {
     border-radius: 10%;
 }
 
+/* Hover settings for nav UL in header */
 .main-header a:hover {
     text-decoration: underline;
 }
 
+/* create and format settings for about section flexbox  */
 .about {
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-    padding-bottom: 1em;    
+    padding-bottom: 1em;
+    background-color: #F7F9FC;
+    border-bottom: 1px solid black;    
 }
 
 .about h2 {
@@ -86,6 +93,7 @@ img {
     margin-right: 3em;
 }
 
+/* create and format settings for about-content section flexbox  */
 .about-content  {
     padding: 1em;
     display: flex;
@@ -96,10 +104,11 @@ img {
     justify-content: baseline;
  }
 
+ /* create and format settings for project work section flexbox  */
  .work {
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-    padding-bottom: 1em;    
+    padding-bottom: 1em;  
 }
 
 .work h2 {
@@ -107,6 +116,7 @@ img {
     margin-right: 3em;
 }
 
+/* create and format settings for project work-content section flexbox  */
 .work-content  {
     display: flex;
     flex-direction: row;
@@ -121,24 +131,28 @@ img {
     max-width: 600px;
  }
 
+ /* Format settings for post-content section flexbox  */
  .post-content  {
     font-size: 20px;
     display: flex;
     flex-direction: row;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
  }
 
+ /* Display settings for project post section flexbox  */
  .post {
      min-width: 25vw;
-    justify-content: center;
-    text-align: center;
+     justify-content: center;
+     text-align: center;
  }
 
  .post img {
     max-width: 25vw;
  } 
 
+ /* Format settings for footer section */
  .footer {
     background-color: #222B45;
     color: #FFFFFF;
@@ -149,17 +163,20 @@ img {
     flex-direction: row;
 }
 
+/* Flexbox settings for footer nav */
 .footer nav {
     flex-grow: 1;
     font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
 }
 
+/* create and format settings for footer nav UL section flexbox  */
 .footer ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
+/* Format settings for UL within footer nav section */
 .footer li {
     height:58px;
     width: 100%;
@@ -167,11 +184,13 @@ img {
     list-style: none;    
 }
 
+/* Format settings for footer  */
 .footer a {
     text-decoration: none;
     color: #FFFFFF;
 }
 
+/* create and format settings allowing hover function of footer */
 .footer a:hover {
     text-decoration: underline;
 }
