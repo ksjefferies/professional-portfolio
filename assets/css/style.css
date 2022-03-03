@@ -1,7 +1,22 @@
-/* Universal settings set at the html level */
+look at
+/* color: #8ac4ff; */
+/* background-color: #8ac4ff; */
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+p {
+    font-size: 20px;
+}
 html {
-    height: 100%;
-    background-color: #F7F9FC;
+    /* background-color: #222B45; */
+    /* background-color: #2d3550; */
+        background-color: black;
+    /* background-color: #101426; */
 }
 
 /* Universal settings for the body */
@@ -13,14 +28,15 @@ body {
     flex-direction: column; 
     height: 100%;
     flex-grow: 1;
-    color: #151A30; 
+    /* color: #151A30;  */
 }
+
 
 /* Format settings for main section */
 main {
   border-radius: 1%;
-  /* background-color: #FFFFFF; */
-  background-color: #E7EFFF;
+  /* background-color: red; */
+
   margin-left: 5em;
   margin-right: 5em;
 }
@@ -32,11 +48,16 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    margin-bottom: 1em;
     border-radius: 1%;
     flex-grow: 1;
-    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
-    background-color: #222B45;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif', 'Helvetica', 'Cantarell', 'Noto Sans', system-ui,'-apple-system','Segoe UI','Roboto','Ubuntu','Cantarell','Apple Color Emoji','Segoe UI Emoji';
     color: #FFFFFF;
+    background-color: #222B45;
+    /* background-color: #5C7A98; */
+
+    
+    /* background-color: #2F4858; */
 }
 
 /* main header image display settings */
@@ -52,7 +73,7 @@ main {
     flex-direction: row;
     flex-basis: 40em;
     align-items: center;
-    gap: 10px;   
+    gap: .265em;   
 }
 
 /* create and format settings for main header nav UL flexbox  */
@@ -61,17 +82,21 @@ main {
     flex-direction: row;
     gap: 10px;
     list-style: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.25em;
     align-items: center;    
     justify-content: center;
+    
 }
 
+.main-header li {
+    white-space: nowrap
+}
 /* Format settings for main header  */
 .main-header a {
     text-decoration: none;
     color: #FFFFFF;
-    padding: 7px;
+    padding: .438em;
     border-radius: 10%;
 }
 
@@ -82,17 +107,20 @@ main {
 
 /* create and format settings for about section flexbox  */
 .about {
+    background-color: #3E4756;
+    border-radius: 1rem;
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     padding-bottom: 1em;
-    /* background-color: #F7F9FC; */
-    background-color: #E7EFFF;
-    border-bottom: 1px solid black;    
+    border: 1px solid white;    
 }
 
 .about h2 {
     padding: 1em;
     margin-right: 3em;
+    white-space: nowrap;
+    font-size: 2.875em;  
+    color: white;
 }
 
 /* create and format settings for about-content section flexbox  */
@@ -101,58 +129,67 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
-    font-size: 20px;
+    gap: 1.25em;
     justify-content: baseline;
+    color: white
  }
 
  /* create and format settings for project work section flexbox  */
  .work {
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;   
     padding-bottom: 1em;  
 }
 
 .work h2 {
+    background-color: black;
     padding: 1em;
     margin-right: 3em;
+    color: white
 }
 
 /* create and format settings for project work-content section flexbox  */
 .work-content  {
+    background-color: black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
-    font-size: 20px;
+    gap: .625em;
+    font-size: 1.25em;
     justify-content: center;
     text-align: center;
+    padding-bottom: 2em;
+    margin-bottom: -1em;
  }
 
+ .hero h2 {
+     font-size: 2.875rem;
+     margin-left: 6rem;
+     
+ }
  .hero img {
-    /* max-width: 600px; */
+     border: 1px solid white;
+     border-radius: 1rem;
     max-width: 50%;
- }
-
- /* Format settings for post-content section flexbox  */
- .post-content  {
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
  }
 
  /* Display settings for project post section flexbox  */
  .post {
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    gap: .625em;
+    flex-wrap: wrap;
+    justify-content: center;
      min-width: 25vw;
      justify-content: center;
      text-align: center;
  }
 
  .post img {
+     border-radius: 1rem;
     max-width: 25vw;
+    border: 1px solid white;
  } 
 
  /* Format settings for footer section */
@@ -161,29 +198,31 @@ main {
     color: #FFFFFF;
     text-align:center;
     height:58px;
-    font-size:11px;
+    font-size:.688em;
     display: flex;
     flex-direction: row;
+    align-content: center;
 }
 
 /* Flexbox settings for footer nav */
 .footer nav {
     flex-grow: 1;
-    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji;
+    font-family: system-ui,'-apple-system','Segoe UI','Roboto','Ubuntu','Cantarell','Noto Sans','sans-serif','Helvetica','Arial','Apple Color Emoji','Segoe UI Emoji';
+    
 }
 
 /* create and format settings for footer nav UL section flexbox  */
 .footer ul {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 /* Format settings for UL within footer nav section */
 .footer li {
-    height:58px;
+    height: 3.625em;
     width: 100%;
-    font-size:20px;
+    font-size: 1.25em;
     list-style: none;    
 }
 
@@ -196,4 +235,148 @@ main {
 /* create and format settings allowing hover function of footer */
 .footer a:hover {
     text-decoration: underline;
+}
+
+/* Create wrapper for text when hovering over image */
+.wrapper {
+    position: relative;
+  }
+  
+.hero .text {
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .hero .wrapper a:hover .text{
+    text-decoration: underline;
+    background: rgba(0,0,0,0.5);
+    opacity: 100%;
+    display: flex;
+  }
+
+  .post .text {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .post .wrapper a:hover .text{
+    text-decoration: underline;
+    background: rgba(0,0,0,0.5);
+    opacity: 100%;
+    display: flex;
+  }
+
+  /* Responsive settings for mobile devices */
+@media screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+      margin-right: -1em;
+      margin-left: -1em;
+      padding: 1em;
+      background-color: black;
+    }
+
+    .main-header ul {
+        flex-direction: column;
+        font-size: .75em;
+    }
+
+    .about-content {
+        /* margin-left: -2em; */
+        /* padding-right: 1em; */
+    }
+    .about {
+        margin-right: 2.3em;
+        margin-top: -1em;
+        margin-left: 2.3em;
+    }
+
+    .about h2 {
+        font-size: 1em;
+    }
+
+    div.hero {
+        margin-right: -5em;
+        margin-left: -5em;
+    }
+
+    .work-content {
+        font-size: .75em;  
+        flex-grow: 0;  
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-bottom: -3em;
+    }
+
+    .post {
+        font-size: 1em;
+    }
+
+    /* .footer li {
+        font-size: 1.2em;
+    } */
+
+    p {
+        font-size: .75em;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 1.25em;
+    }
+
+    
+    /* .footer ul {
+        /* margin-left: -5em;
+        margin-right: -5em; */
+    } */
+    .footer {
+        margin-right: -.8rem;
+    }
+
+    .footer li {
+        margin-left: -5rem;
+    }
+
+    /* .footer nav {
+        margin-bottom: 2em;
+    } */
+
+    .main-header {
+        margin-left: 0em;
+        margin-right: -.5em;
+    }
+
+    .post .text {
+        font-size: 1em;
+    }
+    .hero h2 {
+        font-size: 1rem;
+    }
+
+    .work h2 {
+        background-color: black;
+        color: white;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
 }
