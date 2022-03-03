@@ -15,7 +15,7 @@ In this project, i did the following:
 -----
 ## Screenshot of final page
 
-![Screenshot of final webpage](./assets/images/final-page.jpg)
+![Screenshot of final webpage](./assets/images/portfolio-final-page.png)
 
 -----
 ## Links for Github Repository and final public page
@@ -23,21 +23,21 @@ In this project, i did the following:
 - [Github Repository for professional-portfolio](https://github.com/ksjefferies/professional-portfolio)
 
 - [Professional Portfolio final page](https://ksjefferies.github.io/professional-portfolio/)
-## Stock images
+
+## Images used on this project
 - [Pexels Stock Images](https://www.pexels.com)
 - [Google Image](https://www.reuters.com/technology/google-services-down-some-users-downdetector-2021-06-29/)
 - [Github Image](https://www.omgubuntu.co.uk/2018/06/microsoft-buying-github)
 - [Linkedin Image](https://techsavvy.life/2022/02/17/want-to-change-your-linkedin-profile-url/)
 - [Twitter Image](https://www.indiatvnews.com/technology/news-twitter-edit-button-introduction-on-one-condition-know-what-is-it-631301)
 
-
-
-
 ## Contributions:
 I worked with the following students from my class:
 - Eugene A.
 - Daniel Norred
+
 ## Site used for using Flexbox
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 ## License
 This code is licensed under the MIT License
