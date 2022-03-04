@@ -1,229 +1,213 @@
+html {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+:root{
+    --border: 1px solid white;
+    --border-rad: 1em;
+    --border-hero-rad: .5em;
+
+    --back-about: #222B45;
+    --back-header-footer: #101638;
+    --back-hero-h2: #4B4A54;
+    --back-wrapper: rgba(0,0,0,0.5);
+
+    --font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'Helvetica', 'Cantarell', 'Noto Sans', system-ui;
+}
 
 h1 {
-    font-size: 200%;
+    font-size: 2.8em;
 }
 
 h2 {
-    font-size: 150%;
+    font-size: 2.5em;
 }
+
 p {
-    font-size: 20px;
+    font-size: 1.25em;
 }
-html {
-        background-color: black;
+
+a {
+    font-size: 1em;
+    color: white
 }
 
 /* Universal settings for the body */
 body {
-    min-width: 98%;
-    min-height: 98%;
-    max-width: 99%;
-    margin: 0;
     display: flex;
     flex-direction: column; 
-    height: 98%;
+    align-content: center;
     flex-grow: 1;
 }
 
-/* Format settings for main section */
-main {
-  border-radius: 1%;
-  margin-left: 5em;
-  margin-right: 5em;
-}
-
 /* create and format settings for main header flexbox  */
-.main-header {
+.header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding-right: 1em;
     margin-bottom: 1em;
-    margin-right: -1em;
-    border-radius: 1%;
     flex-grow: 1;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif', 'Helvetica', 'Cantarell', 'Noto Sans', system-ui,'-apple-system','Segoe UI','Roboto','Ubuntu','Cantarell','Apple Color Emoji','Segoe UI Emoji';
-    color: #FFFFFF;
-    background-color: #222B45;
+    font-family: var(--font-family);
+    background-color: var(--back-header-footer);
+
 }
 
 /* main header image display settings */
-.main-header img {
+.header img {
     width: 20%;
     height: 20%;
     border-radius: 50%;
+    padding: 1em;
 }
 
 /* create and format settings for main div flexbox  */
-.main-header div {
+.header div {
     display: flex;
     flex-direction: row;
-    flex-basis: 40em;
     align-items: center;
+    flex-basis: 40em;
     gap: .265em;   
 }
 
 /* create and format settings for main header nav UL flexbox  */
-.main-header ul {    
+.header ul {    
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    list-style: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 1.25em;
     align-items: center;    
-    justify-content: center;    
+    justify-content: center;  
+    list-style: none;
+    gap: 10px;
+    font-size: 1.5em;
+    font-family: var(--font-family);
 }
 
-.main-header li {
-    white-space: nowrap
+.header li {
+    white-space: nowrap;
 }
 
 /* Format settings for main header  */
-.main-header a {
-    text-decoration: none;
-    color: #FFFFFF;
+.header a {
     padding: .438em;
     border-radius: 10%;
+    text-decoration: none;
+    color: var(--main-nav-text);    
 }
 
 /* Hover settings for nav UL in header */
-.main-header a:hover {
+.header a:hover {
     text-decoration: underline;
+}
+
+/* Format settings for main section */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3em;
 }
 
 /* create and format settings for about section flexbox  */
 .about {
-    background-color: #101638;
-    border-radius: 1rem;
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    padding-bottom: 1em;
-    border: 1px solid white;    
-}
-
-.about h2 {    
-    padding: 1em;
-    margin-top: .5em;
-    margin-right: 3em;
-    white-space: nowrap;
-    font-size: 2.875em;  
-    color: white;
-    font-size: 2em;
-}
-
-/* create and format settings for about-content section flexbox  */
-.about-content  {
-    padding: 1em;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1.25em;
-    justify-content: baseline;
-    color: white
- }
-
- /* create and format settings for project work section flexbox  */
- .work {
-    display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;   
-    padding-bottom: 1em;  
+    align-items: center;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding: 2em;
+    border: var(--border);
+    border-radius: var(--border-rad);
+    background-color: var(--back-about);
+    font-family: var(--font-family); 
 }
 
-.work h2 {
-    margin-top: .5em;
-    background-color: #4B4A54;
+.about h2 {   
+    flex-wrap: wrap; 
     padding: 1em;
     margin-right: 3em;
-    color: white
+    white-space: nowrap;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 4em;
 }
 
 /* create and format settings for project work-content section flexbox  */
-.work-content  {
-    background-color: black;
+.current-work  {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: .625em;
-    font-size: 1.25em;
     justify-content: center;
+    align-content: center;
     text-align: center;
-    padding-bottom: 2em;
-    margin-bottom: -1em;
+    gap: .625em;
  }
 
  .hero h2 {
-    font-size: 2.875rem;
-    margin-left: 6rem;     
+    align-content: center;
+    padding: .5em;
+    margin-bottom: 1em;
+    border: var(--border);     
+    border-radius: var(--border-hero-rad);
+    background-color: var(--back-hero-h2);
+    font-family: var(--font-family);
  }
 
- .hero img {
-    border: 1px solid white;
-    border-radius: 1rem;
-    margin-top: 1em;
-    margin-bottom: 1em;
+ .current-work img {
+    justify-items: center;
+    align-self: center;
     max-width: 50%;
+    border: var(--border);
+    border-radius: var(--border-rad);   
+ }
+
+ .former-work {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-content: center;    
+     flex-wrap: wrap;
+     margin-top: 2em;
+     gap: 1em;
  }
 
  /* Display settings for project post section flexbox  */
- .post {
-    font-size: 1.25em;
-    display: flex;
-    flex-direction: row;
-    gap: .625em;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-width: 25vw;
-    justify-content: center;
-    text-align: center;
- }
-
  .post img {
-    border-radius: 1rem;
     max-width: 25vw;
-    border: 1px solid white;
+    border-radius: var(--border-rad);    
+    border: var(--border);
  } 
 
  /* Format settings for footer section */
  .footer {
-    background-color: #222B45;
-    color: #FFFFFF;
-    text-align:center;
-    height:58px;
-    font-size:.688em;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
+    justify-content: center;
     align-content: center;
-    margin-right: -1.1em;
+    text-align: center;  
+    padding: .5em;
+    list-style: none;
+    background-color: var(--back-header-footer);
+    font-family: var(--font-family);
 }
 
 /* Flexbox settings for footer nav */
 .footer nav {
     flex-grow: 1;
-    font-family: system-ui,'-apple-system','Segoe UI','Roboto','Ubuntu','Cantarell','Noto Sans','sans-serif','Helvetica','Arial','Apple Color Emoji','Segoe UI Emoji';    
 }
 
 /* create and format settings for footer nav UL section flexbox  */
-.footer ul {
-    width: 98%;
+.footer ul {   
     display: flex;
-    justify-content: space-between;    
-}
-
-/* Format settings for UL within footer nav section */
-.footer li {
-    height: 3.625em;
-    width: 98%;
-    font-size: 1.25em;
-    list-style: none;  
-    margin-top: 1.5em;  
-}
-
-/* Format settings for footer  */
-.footer a {
-    text-decoration: none;
-    color: #FFFFFF;
+    padding: 1em;
+    justify-content: space-evenly;   
 }
 
 /* create and format settings allowing hover function of footer */
@@ -237,12 +221,11 @@ main {
 }
   
 .hero .text {
-    max-width: 50%;
+    position: absolute;   
     justify-content: center;
     align-items: center;
-    display: none;
-    color: white;
-    position: absolute;
+    max-width: 50%;
+    display: none;  
     top: 0;
     left: 25%;
     bottom: 0;
@@ -251,19 +234,18 @@ main {
 }
 
 .hero .wrapper a:hover .text {
-    text-decoration: underline;
-    background: rgba(0,0,0,0.5);
-    opacity: 100%;
     display: flex;
+    text-decoration: underline;
+    opacity: 100%;
+    background: var(--back-wrapper);
 }
 
 .post .text {
-    max-width: 100%;
+    position: absolute;
+    display: none;
     justify-content: center;
     align-items: center;
-    display: none;
-    color: white;
-    position: absolute;
+    max-width: 100%;
     top: 0;
     left: 0;
     bottom: 0;
@@ -272,91 +254,46 @@ main {
 }
 
 .post .wrapper a:hover .text {
-    text-decoration: underline;
-    background: rgba(0,0,0,0.5);
-    opacity: 100%;
     display: flex;
+    text-decoration: underline;
+    opacity: 100%;
+    background: var(--back-wrapper); 
 }
 
   /* Responsive settings for mobile devices */
 @media screen and (max-width: 768px) {
     p {
         font-size: .75em;
-        flex-wrap: wrap;
     }
 
     h1 {
         font-size: 1.25em;
     }
 
-    main {
-        flex-direction: column;
-        margin-right: -1em;
-        margin-left: -1em;
-        background-color: black;
-    }
-
-    .main-header {
-        margin-left: 0em;
-        margin-right: -.5em;
-    }
-
-    .main-header ul {
+    .header ul {
         flex-direction: column;
         font-size: .75em;
     }
 
     .about {
-        margin-right: 2.3em;
-        margin-top: .2em;
-        margin-left: 2.3em;
+        margin-top: -2em;
+        padding: 1em;
+ 
     }
 
     .about h2 {
-        margin-top: 4.5em;
         font-size: 1em;
-    }
-
-    .hero h2 {
-        font-size: 1.5em;
     }
 
     div.hero {
         margin-right: -5em;
         margin-left: -5em;
+        margin-top: -2em;
     }
 
     .work h2 {
-        color: white;
-        margin-left: 4em;
-        margin-right: 4em;
-        margin-top: .7em;
-    }
-
-    .work-content {
-        font-size: .75em;
-        flex-grow: 0;
-        margin-left: 3em;
-        margin-right: 3em;
-        margin-bottom: -3em;
-    }
-
-    .post {
+        margin-left: 3.5em;
+        margin-right: 3.8em;
         font-size: 1em;
-    }
-
-    .post .text {
-        font-size: 1em;
-    }
-
-    .footer {
-        margin-right: -.8em;
-        margin-top: .7em;
-    }
-
-    .footer li {
-        font-size: 1em;
-        padding-top: .75em;
-        margin-left: -2em;
     }
 } 

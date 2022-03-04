@@ -32,7 +32,7 @@ In this project, i did the following:
 - [Twitter Image](https://www.indiatvnews.com/technology/news-twitter-edit-button-introduction-on-one-condition-know-what-is-it-631301)
 
 ## Contributions:
-I worked with the following students from my class:
+I worked with the following people:
 - Eugene A.
 - Daniel Norred
 
