@@ -15,11 +15,8 @@ In this project, i did the following:
 -----
 ## Screenshot of final page
 
-<<<<<<< HEAD
 ![Screenshot of final webpage](./assets/images/portfolio-final-page-copy.png)
-=======
-![Screenshot of final webpage](./assets/images/portfolio-final-page copy.png)
->>>>>>> 1b9d947ea54c1bf70a257a59509ac25a6cecd2e6
+
 
 -----
 ## Links for Github Repository and final public page
