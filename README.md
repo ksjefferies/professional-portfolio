@@ -15,7 +15,7 @@ In this project, i did the following:
 -----
 ## Screenshot of final page
 
-![Screenshot of final webpage](./assets/images/portfolio-final-page.png)
+![Screenshot of final webpage](./assets/images/portfolio-final-page copy.png)
 
 -----
 ## Links for Github Repository and final public page
