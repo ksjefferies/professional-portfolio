@@ -19,7 +19,7 @@ p {
 
 a {
     font-size: 1em;
-    color: white
+    color: white;
 }
 
 /* centralized commonly used format variables */
@@ -221,6 +221,10 @@ main {
 /* Create wrapper for text when hovering over image */
 .wrapper {
     position: relative;
+}
+.wrapper a {
+    display: flex;
+    justify-content: center;
 }
   
 .hero .text {
