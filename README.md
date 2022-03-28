@@ -43,7 +43,7 @@
 ```
 ## Portfolio Image:
 
-![Screenshot of Portfolio](./assets/images/Portfolio%20v1.5.png)
+![Screenshot of Portfolio](./assets/images/portfoliov1.5.png)
 
 ----
 
