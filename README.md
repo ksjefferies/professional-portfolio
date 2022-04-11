@@ -45,7 +45,8 @@
 ```
 ## Portfolio Image:
 
-![Screenshot of Portfolio](./assets/images/portfoliov1.5.png)
+![Screenshot of Portfolio](./assets/images/portfolio-v2.jpg)
+![Screenshot of Portfolio Responsiveness](./assets/images/portfolio-responsive-v2.jpg)
 
 ----
 
@@ -66,4 +67,4 @@
 
 ## License:
 
-This code is licensed under the MIT License
+[![License](https://img.shields.io/badge/License-MIT%20License-Green)](http://choosealicense.com/licenses/mit/)
