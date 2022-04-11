@@ -1,9 +1,10 @@
-# Portfolio Update
+# Portfolio Update v2
 
 ## Task:
 ```
 
-- Updated portfolio featuring Project 1 and two exemplary homework assignments.
+- Updated portfolio with current assignments and removes older material.
+- Ensured profile completes all the following objectives:
     * Display Contact Information
     * Links to GitHub and LinkedIn
     * Link to downloadable PDF of current resume
@@ -12,9 +13,10 @@
         - Link to deployed version
         - Link to GitHub repository
         - Screenshot of deployed application
+        - ADDED descriptions for each sample work
     * Mobile-first design/responsive
-- Updated GitHub profile
-    * Pinned repositories featuring Project 1 and two exemplary assignments.
+- Ensured GitHub profile included:
+    * Updated pinned repositories and removes older material from pinned.
     * Photo
     * Biography
     * Email address
@@ -28,7 +30,7 @@
         - Screenshots of the app
         - License
         - Contact info for me and collaborators
-- Updated Resume
+- Updated Resume with new profect and removed old material
     * Clear, concise, and compelling
     * Includes: Name, Phone, Email
     * Links to GitHub, LinkedIn, and Porfolio
@@ -36,8 +38,8 @@
     * Three of your strongest projects including:
         - Description
         - Languages used
-        - URL link
-- Updated LinkedIn profile
+        - Rewrote URL links to display URL, as Career Connection requested
+- Ensured LinkedIn profile contained: 
     * Bio statement
     * Professional photo
 ```

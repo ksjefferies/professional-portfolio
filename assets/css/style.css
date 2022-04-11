@@ -242,6 +242,7 @@ main {
     bottom: 0;
     right: 0;
     z-index: 999;
+    flex-wrap: wrap
 }
 
 .hero .wrapper a:hover .text {
@@ -262,6 +263,8 @@ main {
     bottom: 0;
     right: 0;
     z-index: 999;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
 }
 
 .post .wrapper a:hover .text {
