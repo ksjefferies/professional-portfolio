@@ -1,4 +1,4 @@
-# Portfolio Update v2
+# Portfolio Update v3
 
 ## Task:
 ```
@@ -45,8 +45,10 @@
 ```
 ## Portfolio Image:
 
-![Screenshot of Portfolio](./assets/images/portfolio-v2.jpg)
-![Screenshot of Portfolio Responsiveness](./assets/images/portfolio-responsive-v2.jpg)
+![Screenshot of Portfolio](./assets/images/portfolio-v3.jpg)
+
+## Responsive Image:
+![Screenshot of Portfolio Responsiveness](./assets/images/portfolio-responsive-v3.png)
 
 ----
 
