@@ -1,5 +1,7 @@
 # Portfolio Update v3
 
+-----
+
 ## Task:
 ```
 
@@ -43,7 +45,9 @@
     * Bio statement
     * Professional photo
 ```
-## Portfolio Image:
+
+-----
+## Image:
 
 ![Screenshot of Portfolio](./assets/images/portfolio-v3.jpg)
 
@@ -51,21 +55,22 @@
 ![Screenshot of Portfolio Responsiveness](./assets/images/portfolio-responsive-v3.png)
 
 ----
-
-## Links for Github Repository and The Movie Database public page:
-
-- [Github Repository for Portfolio](https://github.com/ksjefferies/professional-portfolio)
+## Site URL:
 
 - [Portfolio Page](https://ksjefferies.github.io/professional-portfolio/)
 
-## Authors:
+## Github Repository:
+
+- [Github Repository for Portfolio](https://github.com/ksjefferies/professional-portfolio)
+
+## Author:
 
 - [Kelly Jefferies](https://github.com/ksjefferies)
 
 ## Technologies Used:
 
-- HTML
-- CSS
+![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## License:
 
