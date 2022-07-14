@@ -49,10 +49,7 @@
 -----
 ## Image:
 
-![Screenshot of Portfolio](./assets/images/portfolio-v3.jpg)
-
-## Responsive Image:
-![Screenshot of Portfolio Responsiveness](./assets/images/portfolio-responsive-v3.png)
+![Screenshot of Portfolio](./assets/images/portfolio-v4.jpg)
 
 ----
 ## Site URL:
